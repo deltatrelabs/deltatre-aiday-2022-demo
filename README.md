@@ -1,6 +1,6 @@
 # Optimizing Deep Learning models: theory, tools & best-practices (AI Day 2022)
 
-In this repository you can find the slides and demo for **Optimizing Deep Learning models: theory, tools & best-practices** session, presented (in Italian) at [AI Day 2022 Conference](https://aiday.dotnetdev.it/) on November 18th, 2022.
+In this repository you can find slides and demo for **Optimizing Deep Learning models: theory, tools & best-practices** session, presented (in Italian) at [AI Day 2022 Conference](https://aiday.dotnetdev.it/) on November 18th, 2022.
 
 Abstract:
 
@@ -58,7 +58,7 @@ pip install onnxruntime_gpu
 
 ## Demo 3 - Nebuly
 
-A demo script shows how to take a PyTorch model and optimize it leveraging the Nebuly's [Nebullvum](https://github.com/nebuly-ai/nebullvm) open-source library. The optimized model is compared against the original model, for output compatibility and performance evaluation on different frameworks, returning the best one for the available hardware.
+A demo script shows how to take a PyTorch model and optimize it by leveraging Nebuly's [Nebullvum](https://github.com/nebuly-ai/nebullvm) open-source library. The optimized model is compared against the original model, for output compatibility and performance evaluation on different frameworks, returning the best one for the available hardware.
 
 Requirements: **Python 3.9.x**, **PyTorch 1.12.1**, **Nebullvm 0.5+**, **TensorRT 8.5.1.7**, **Intel OpenVINO 2022.2**, **ONNX Runtime 1.13.1** (on Linux/WSL Ubuntu 20.04)  
 NVIDIA GPU (with CUDA 11.6, cuDNN)
