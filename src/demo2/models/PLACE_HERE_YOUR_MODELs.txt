@@ -1,0 +1,7 @@
+During the live demo, we used a pre-trained ONNX model publicly available (input.onnx).
+Place here your own model(s) to test the demo example.
+
+Before running the quantization example, you need to prepare the model for the operation.
+Run this command:
+
+ python -m onnxruntime.quantization.preprocess --input src/demo2/models/input.onnx --output src/demo2/models/input_preproc.onnx --skip_symbolic_shape True

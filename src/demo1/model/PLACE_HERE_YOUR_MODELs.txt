@@ -1,0 +1,2 @@
+During the live demo, we used a pre-trained ONNX model publicly available (input.onnx).
+Place here your own model(s) to test the demo example.
