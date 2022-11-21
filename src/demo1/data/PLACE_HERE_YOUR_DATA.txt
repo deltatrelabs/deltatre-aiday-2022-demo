@@ -1,0 +1,2 @@
+During the live demo, we used a picture to test model outputs.
+Place here your own picture (sample.jpg) to run the demo example.
